@@ -190,15 +190,15 @@ There is also a button with openDialog method called on click event.</P>
   </table>
  
 </div>
- 
+ ```
 
-#mytable is a template variable which we will use to refresh table data by calling
-renderRows() method.
+# mytable is a template variable which we will use to refresh table data by calling renderRows() method.
 *matHeaderRowDef takes an array of columns we want to show in table.
 matColumnDef property on the column is the same as a key in the JSON data object.
 *matHeaderCellDef have the text of columns in the table header.
 Now replace the following code in app.component.ts file
-//app.component.ts
+
+``` //app.component.ts
 import { Component, ViewChild } from '@angular/core';
 
 import { MatDialog, MatTable } from '@angular/material';
@@ -271,7 +271,8 @@ export class AppComponent {
 
 
 }
-	
+```
+```	
 //app.component.ts
 import { Component, ViewChild } from '@angular/core';
  
@@ -355,9 +356,11 @@ $ ng generate component dialog-box --skipTests=true
 <p>
   
 declarations (added by default if created in CLI) as well as entryComponents otherwise it will throw the following error as Dialog is added dynamically.</P>
+
 ``` ERROR Error: No component factory found for EditRowComponent. Did you add it to @NgModule.entryComponents?
 ```
 <p>So our final app.module.ts file will look like this</P>
+
 ```
 //app.module.ts
 import { BrowserModule } from '@angular/platform-browser';
