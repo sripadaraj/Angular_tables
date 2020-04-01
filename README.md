@@ -499,5 +499,6 @@ In the dialog-box.component.html file add following code with a heading, input f
 	
   $ ng serve --open
   ```
-  
- 
+  # output will look like this
+  ![images output](https://github.com/sripadaraj/Angular_tables/blob/master/imgs/screen24.png)
+ ![images output](https://github.com/sripadaraj/Angular_tables/blob/master/imgs/screen123.png)
